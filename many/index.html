@@ -1,108 +1,98 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Manuel Gonzalez</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
+<html>
+<style>
+* {
+        margin: 0px;
+        padding: 0px;
+}
 
-  <body>
-    <article>
-      <header>
-        <h1>Manuel Gonzalez</h1>
-        <hr />
-      </header>
+body {
+        background: #58585A;
+        font-family: Tahoma, sans-serif;
+        color: #CFCFCF;
+}
 
-      <section>
-        <header>
-         <h2>Education</h2>
-        </header>
+#contenedor {
+        width: 550px;
+        padding-top: 1em;
+        margin-left: auto;
+        margin-right: auto;
+}
 
-        <h3>Universidad Central de Venezuela</h3>
-        <p class="cargo">Bachelor in Journalism</p>
-        <p>Caracas, Venezuela</p>
-        <p><time datetime="1991">1991</time> - <time datetime="1997">1997</time></p>
-        <hr />
-      </section>
+h1, h2, h3, h4 {
+        color: #FFCC00;
+}
 
-      <section>
-        <header>
-         <h2>Experience</h2>
-        </header>
+p {
+        font-size: 1.1em;
+}
+p + p {
+       padding-top: 1em;
+}
+p + h2 {
+       padding-top: 2em;
+}
+p a {
+	color: #FFCC00;
+}
+h3 {
+      padding-top: 1em;
+      padding-bottom: 1em;
+}
 
-        <h3>Lexus Chatham Park Way</h3>
-        <p class="cargo">Lube Technician</p>
-        <p>Savannah, GA</p>
-        <p><time datetime="2018">March 2018</time> - Current</p>
-        <p><span class="duties">Duties:</span> Perform Lexus certified inspections, oil changes, brake services, tire services, car alignments, fuel induction services and other related activities.</p>
+img {
+        padding-top: 2em;
+}
 
-        <h3>Diario El Universal<sub>Newspaper</sub></h3>
-        <p class="cargo">Infographic department director</p>
-        <p><time datetime="2001">2001</time> - <time datetime="2016">2016</time></p>
-        <p><span class="duties">Duties:</span> Couch and lead a talented group of journalist, artists and designers to allow them to develop and produce the best work they were able to do while trying to create some infographics at the same time and with the same quality on my own.</p>
+img.otras {
+        padding-top: 2em;
+        padding-bottom: 2em;
+}
 
-        <h3>Airbnb Host</h3>
-        <p>Caracas, Venezuela</p>
-        <p><time datetime="2012">2012</time> - <time datetime="2016">2016</time></p>
-        <p><span class="duties">Duties:</span> Answer requests at the speed of light. Easying all the booking experience and most fo the time act as their personal concierge and as their best new friend in a foreing country. Help our guests to survive and enjoy Venezuela going above and beyond to make them fill at home.</p>
-        <p>See some of our guests comments <a href="https://www.airbnb.com/users/show/676912">here</a></p>
+ul {
+        font-size: 1.1em;
+        margin-left: 2em;
+        margin-bottom: 2em;
+}
 
-        <h3>TTR - Telematica y Tecnologia de Redes</h3>
-        <p class="cargo">Designer</p>
-        <p><time datetime="1998">1998</time> - <time datetime="2001">2001</time></p>
-        <p><span class="duties">Duties:</span> Design and program web pages and Information Design for external clients.</p>
+.hijo {
+        text-indent: 313px;
+}
+.esposo {
+        text-indent: 236px;
+}
 
-        <h3>Diario El Globo</h3>
-        <p class="cargo">Designer, Journalist</p>
-        <p><time datetime="1992">1992</time> - <time datetime="1998">1998</time></p>
-        <p><span class="duties">Duties:</span> Advertising and editorial design, copy and news writing.</p>
-        <hr />
-      </section>
+.last {
+        padding-bottom: 3em;
+}
 
-      <section>
-        <header>
-          <h2>Honors</h2>
-        </header>
-
-        <h3>Malofiej Infographics Awards</h3>
-        <p class="cargo">SND Spain, Navarra University</p>
-        <p>Bronze Medal, Interactive</p>
-        <p><time datetime="2007">2007</time></p>
-
-        <h3>Monsenor Pellin Award</h3>
-        <p class="cargo">Conferencia Episcopal de Venezuela</p>
-        <p>Most important award for journalism in Venezuela</p>
-        <p><time datetime="2005">2005</time></p>
-
-        <h3>Malofiej Infographic Awards</h3>
-        <p class="cargo">SND Spain, Navarra University</p>
-        <p>Bronze Medal, Interactive</p>
-        <p><time datetime="2005">2005<time></p>
-        <hr />
-      </section>
-      <section>
-        <header>
-          <h2>Interests</h2>
-        </header>
-        <ul>
-          <li>My family</li>
-          <li>Reading</li>
-          <li>Flute</li>
-          <li>Running</li>
-          <li>Hosting</li>
-          <li>Languages</li>
-          <li>Homebrewing</li>
-          <li>Baking</li>
-        </ul>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-      </section>
-    </article>
-    <footer>
-        <p>Contact information: papasol[at]protonmail[dot]com</p>
-    </footer>
-  </body>
+</style>
+<body>
+<div id="contenedor">
+<h1>Something about me?</h1>
+<img src="sonbrother.png" alt="Son and Brother" width="550"/>
+<p class="hijo">I am the third son of Carmen and Luis. Brother of  Jos&eacute;, Marcelo, Luis and Alicia</p>
+<img src="husbanfather.png" alt="Husband and Father" width="550"/>
+<p class="esposo">I was blessed 29 years ago when I met just by chance the best woman on earth and we married right away even though she was 19 and I was 21, together we have a daughter who is the best daughter a father can have, her name is Sol.</p>
+<img src="thingsilikes.png" alt="What I like" width="550"/>
+<p>I firmly believe that the things and subjects that we like define us. In particular the ones that I like the most are:</p>
+<ul>
+        <li>To learn, to know, to study</li>
+        <li>To make and eat bread</li>
+        <li>Biking</li>
+        <li>Running</li>
+        <li>Swimming</li>
+        <li>Brewing beer</li>
+        <li>Play the flute (I'm still the worst flutist in the whole World)</li>
+        <li>Host people</li>
+</ul>
+<p>Of course there are a lot more things I like but those ones are the ones I do no matter what, no matter the mood, the wheather the time of the year or the outcome.</p>
+<h2>Something more</h2>
+<p>I studied journalism at the UCV (Universidad Central de Venezuela,  Central University of Venezuela) and I've worked at print shops, Ad agencies and newspapers since 1992.</p>
+<p>Maybe by chance, fate or my natural inclination toward change, I did a lot of different things in the graphic industry. You know, when you have a daughter at 22 you just have to work.</p>
+<p>I ended up being the lead of the infographic team at El Universal. It was the most important newspaper in the country. I was part of that team since 2001.</p>
+<p>During that time had a lot of fun and I even won a couple of awards in 2005 and 2006 working with my friends Nico Ramallo and Vero Da Costa</p>
+<p>In 2014 the Government took over the newspaper and they kicked out all internal oposition. I was happy to be one of them. After a couple of years I came to the Unites States and filed for asylum. Here I have worked on a diversity of places and positions: Houseman in a five stars hotel, Head baker in a bakery, carpenter doing framing, auto technician for a Lexus dealership. I have enjoyed all of them and I am ready for any challenge. I am 50. The story just begun.</p>
+<p class="last">Manuel</p>
+</div>
+</body>
 </html>
